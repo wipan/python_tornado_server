@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Escape</title>
+</head>
+<body>
+    <!--转义： {% raw str%}，关闭转义，只关闭一行-->
+    {% raw str%}
+    {{str}}
+    <!-- autoescape 关闭当前页面的所有转义 -->
+    {% autoescape None %}
+</body>
+</html>
